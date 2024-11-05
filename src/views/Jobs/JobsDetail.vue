@@ -1,5 +1,5 @@
 <template>
-  <h1>JOBS PAGES KWA</h1>
+  <h1>JOBs DETAILS</h1>
 </template>
 
 <script>
