@@ -1,11 +1,13 @@
+
 <template>
   <nav>
-    <router-link :to="{name:'home'}">Home</router-link> ||
-    <router-link :to="{name:'aboutUs'}">About</router-link> ||
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link> |
 
-    <router-link :to="{name:'jobs'}">JOBS</router-link>
+    <router-link to="/job">JOBS</router-link> |
+    <router-link to="/jobdetails">JOB Details</router-link>
 
-    <!-- <a href="/about">about</a> -->
+
   </nav>
   <router-view/>
 </template>
@@ -32,3 +34,4 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
